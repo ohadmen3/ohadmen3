@@ -1,0 +1,8 @@
+import play
+from random import randint
+
+RandomNum1= randint(0,9)
+RandomNum2= randint(0,9)
+
+print("The numbers is", RandomNum1, "+" , RandomNum2)
+print("The answer is", int(RandomNum1 + RandomNum2))
